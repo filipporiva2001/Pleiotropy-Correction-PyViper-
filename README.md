@@ -21,10 +21,8 @@ pyVIPER previously lacked a native pleiotropy-correction step, leading to:
 - Overestimation of TF activity
 - Inflated NES values for highly connected regulators
 - Reduced agreement with VIPER (R) results
+
 By implementing pleiotropy correction directly in Python:
-
-TF activity inference becomes more biologically specific
-
-Results are directly comparable between R VIPER and pyVIPER
-
-Large-scale and HPC-based workflows can remain fully Python-native
+- TF activity inference becomes more biologically specific
+- Results are directly comparable between R VIPER and pyVIPER
+- Large-scale and HPC-based workflows can remain fully Python-native
